@@ -2,14 +2,17 @@ function changeColors() {
     const button = document.getElementById('colorButton');
     const title = document.getElementById('title');
     const texte = document.getElementById('texte');
+    const title2 = document.getElementById('title2');
   
     const buttonColor = getRandomColor();
     const titleColor = getRandomColor();
     const textColor = getRandomColor();
+    const title2Color = getRandomColor();
 
   
     button.style.backgroundColor = buttonColor;
     title.style.color = titleColor;
+    title2.style.color = title2Color;
     texte.style.color = textColor;
   }
   
